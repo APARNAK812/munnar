@@ -1,7 +1,7 @@
 .nav{
     background-color: darkcyan;
     background-size: cover;
-    position: sticky;
+    position: fixed;
     top: 1px;
     width: 100%;
     height: 70px;
@@ -31,7 +31,7 @@ li{
     height: 60px;
     position: relative;
     left:200px;
-    bottom: 30px;
+    bottom: 48px;
 }
 .bgimg{
     background-image: url("https://tentgram-web.s3.amazonaws.com/media/wyanad-900-kandi-aframe-cabin.jpg");
@@ -69,7 +69,7 @@ li{
     display: inline; 
     background-color: darkcyan;
  }
-.searchicon{
+/* .searchicon{
     width: 25px;
     height: 15px;
 }
@@ -77,8 +77,94 @@ li{
     width: 250px;
     height: 30px;
     border-radius: 50px;
+} */
+.search{
+    position: relative;
+    left:450px;
+    top: 300px;
+
 }
-.foot{
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: centre;
+    width: 10%;
+    padding: 10px;
+    background: #4fb5de;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #192835;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .dest{
+    position: absolute;
+    top: 775px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    background-color: #192835;
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-evenly;
+  }
+  .dsthd1{
+    position: relative;
+    left:443px;
+    color: antiquewhite;
+  }
+  .dest1{
+    position: relative;
+    left: -225px;
+    top : 87px;
+  }
+  .desthd{
+    color:bisque
+  }
+
+  .destimg{  
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+} 
+ .foot{
     width: 100%;
     height: 50px;
+    position: absolute; 
+    /* bottom:0px; */
+    top: 1270px;
+    background-color: white;
 }
+
+.headfoot{
+    position: relative;
+    left: 200px;
+}
+  
+  
