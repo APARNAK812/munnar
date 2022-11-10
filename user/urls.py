@@ -5,9 +5,9 @@ app_name='user'
 
 
 urlpatterns=[
-    path('home',views.home),
-    path('contact',views.contact),
-    path('thingstodo',views.thingstodo),
-    path('membership',views.membership),
-    path('packages',views.packages),
+    path('home',views.home,name='home1'),
+    path('contact',views.contact,name='contact1'),
+    path('thingstodo',views.thingstodo,name='thingstodo1'),
+    path('membership',views.membership,name='membership1'),
+    path('packages',views.packages,name='packages1'),
 ]
